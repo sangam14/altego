@@ -1,0 +1,1 @@
+Sitemap: https://atega.netlify.app/sitemap.xml

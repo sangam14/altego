@@ -1,0 +1,48 @@
+{
+  "posts": [
+    
+    {
+      "title": "Soc Analyst Guide",
+      "url": "/soc-analyst-guide/",
+      "date": "April 9, 2024",
+      "category": null,
+      "excerpt": "\n"
+    },
+    
+    {
+      "title": "Container Security Fundamentals",
+      "url": "/container-security-fundamentals/",
+      "date": "April 9, 2024",
+      "category": null,
+      "excerpt": "\n"
+    },
+    
+    {
+      "title": "Cloud Security Best Practices",
+      "url": "/cloud-security-best-practices/",
+      "date": "April 9, 2024",
+      "category": null,
+      "excerpt": "\n"
+    }
+    
+  ],
+  "pages": [
+    
+    
+    {
+      "title": "Search",
+      "url": "/search/",
+      "excerpt": "\n    Search\n    \n        \n        \n    \n\n    \n\n    \n    \n "
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  ]
+} 

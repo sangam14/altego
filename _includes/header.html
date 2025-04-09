@@ -1,0 +1,17 @@
+<nav class="site-nav">
+    <div class="site-title">
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        <li><a href="{{ '/search.html' | relative_url }}">Search</a></li>
+    </ul>
+</nav>
+{% if site.theme_settings.header_text %}
+<div class="header-text">
+    {{ site.theme_settings.header_text }}
+</div>
+{% endif %} 

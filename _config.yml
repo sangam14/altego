@@ -1,0 +1,53 @@
+title: Infection Detected
+description: A comprehensive blog about Cybersecurity, Cloud Security, Container Security, and SOC
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Theme settings
+theme_settings:
+  # Meta
+  title: Infection Detected
+  favicon: favicon.ico
+  description: Exploring the depths of cybersecurity, from cloud to containers
+  email: shubhendu@infectiondetected.com
+  
+  # Header and footer text
+  header_text: Securing the Digital Frontier
+  footer_text: © 2024 Infection Detected | Created by Shubhendu
+  
+  # Social icons
+  social:
+    github: shubhendu
+    twitter: shubhendu_sec
+    linkedin: shubhendu-security
+    email: shubhendu@infectiondetected.com
+
+# Author information
+author:
+  name: Shubhendu
+  bio: Security Researcher & Cloud Native Security Expert
+  image: /assets/images/author.jpg
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:title/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+  - README.md
+  - LICENSE 

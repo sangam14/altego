@@ -1,0 +1,24 @@
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-text">
+            <script>document.write(new Date().getFullYear())</script> © Atega. Crafted & Designed by Artem Sheludko
+        </div>
+        
+        {% if site.theme_settings.social %}
+        <div class="social-links">
+            {% if site.theme_settings.social.github %}
+            <a href="https://github.com/{{ site.theme_settings.social.github }}" target="_blank">GitHub</a>
+            {% endif %}
+            {% if site.theme_settings.social.twitter %}
+            <a href="https://twitter.com/{{ site.theme_settings.social.twitter }}" target="_blank">Twitter</a>
+            {% endif %}
+            {% if site.theme_settings.social.linkedin %}
+            <a href="https://linkedin.com/in/{{ site.theme_settings.social.linkedin }}" target="_blank">LinkedIn</a>
+            {% endif %}
+            {% if site.theme_settings.social.email %}
+            <a href="mailto:{{ site.theme_settings.social.email }}">Email</a>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+</footer> 
